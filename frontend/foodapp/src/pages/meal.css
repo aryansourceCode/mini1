@@ -1,0 +1,37 @@
+/* src/pages/Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.meal-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.meal-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+.meal-card h2 {
+    color: #555;
+}
+
+.meal-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.meal-card li {
+    margin: 5px 0;
+    color: #333;
+}
